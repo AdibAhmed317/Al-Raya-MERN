@@ -77,12 +77,14 @@ const SingleProduct = () => {
         type: 'keyframes',
         delay: 0.175,
       }}
-      className='bg-green-50'
       id='container'
     >
       <Navbar />
       <DropDown />
-      <div className='p-[50px] flex flex-col md:flex-row' id='wrapper'>
+      <div
+        className='p-[50px] flex justify-center items-center flex-col md:flex-row min-h-[90vh]'
+        id='wrapper'
+      >
         <div className='flex-1' id='image-container'>
           <img
             className='w-full h-96 md:h-[60vh] object-cover'
